@@ -1,4 +1,4 @@
 open Core
 
 let () = 
-  print_endline "Hello Fucker"
+  print_endline "Hello Fucker!!"
