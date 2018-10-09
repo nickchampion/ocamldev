@@ -1,0 +1,7 @@
+lib: [
+  "_build/install/default/lib/oCamlDev/META" {"META"}
+  "_build/install/default/lib/oCamlDev/opam" {"opam"}
+]
+bin: [
+  "_build/install/default/bin/oCamlDev" {"oCamlDev"}
+]

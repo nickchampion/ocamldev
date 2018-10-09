@@ -1,0 +1,18 @@
+opam-version: "1.2"
+name: "oCamlDev"
+version: "1.0"
+maintainer: "Nick Champion <nick@ubuntu>"
+authors: "Nick Champion <nick@ubuntu>"
+homepage: "http://www.google.co.uk"
+bug-reports: "none"
+license: "open"
+dev-repo: "http://github.com"
+build: [
+  ["./configure" "--prefix=%{prefix}%"]
+  [make]
+]
+install: [make "install"]
+remove: ["ocamlfind" "remove" "oCamlDev"]
+depends: [
+  "ocamlfind" {build}
+]
